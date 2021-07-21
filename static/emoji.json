@@ -22,6 +22,11 @@
   "signs": {
     "sad": "😟",
     "currency_sign": "💱",
-    "location": "📍"
+    "location": "📍",
+    "balance": "⚖"
+  },
+  "arrows": {
+    "up": "\uD83D\uDD3C",
+    "down": "\uD83D\uDD3B"
   }
 }

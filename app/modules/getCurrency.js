@@ -1,4 +1,4 @@
-const emoji = require('../static/emoji.json');
+const emoji = require('../../static/emoji.json');
 
 const getCurrency = (bot, id) => {
     bot.sendMessage(id, `Choose currency`, {

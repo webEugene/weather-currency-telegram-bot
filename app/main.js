@@ -1,12 +1,10 @@
 require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, {polling: true});
-const axios = require('axios');
 const emoji = require('../static/emoji.json');
-const getCurrency = require('./getCurrency');
-const APIPrivatBank = require('./api/APIPrivatBank');
-const APIWeather = require('./api/APIWeather');
-const startBot = require('./startBot');
+const getCurrency = require('./modules/getCurrency');
+const APIPrivatBank = require('./modules/APIPrivatBank');
+const APIWeather = require('./modules/APIWeather');
 
 const main = () => {
     bot.setMyCommands([
