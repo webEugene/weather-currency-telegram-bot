@@ -1,6 +1,6 @@
-require('dotenv').config();
+// require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
-const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, {polling: true});
+const bot = new TelegramBot('1273138055:AAEQdSgrpRw_pvUacvmJrLKbhhtBMiGrjF0', {polling: true});
 const emoji = require('../static/emoji.json');
 const getCurrency = require('./modules/getCurrency');
 const APIPrivatBank = require('./modules/APIPrivatBank');
