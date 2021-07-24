@@ -1,0 +1,32 @@
+{
+  "currency" : {
+    "EUR": "💶",
+    "USD": "💵",
+    "UAH": "🇺🇦"
+  },
+  "weather": {
+    "weatherIcon": "🌡️",
+    "few_clouds": "🌤️",
+    "overcast_clouds": "☁️",
+    "broken_clouds": "☁️",
+    "clear_sky": "☀️",
+    "light_rain": "🌧",
+    "light_snow": "🌨️",
+    "scattered_clouds": "☁",
+    "snow": "🌨️",
+    "mist": "🌫️",
+    "shower_rain": "🌧️",
+    "rain": "🌧️",
+    "drizzle": "🌧️"
+  },
+  "signs": {
+    "sad": "😟",
+    "currency_sign": "💱",
+    "location": "📍",
+    "balance": "⚖"
+  },
+  "arrows": {
+    "up": "\uD83D\uDD3C",
+    "down": "\uD83D\uDD3B"
+  }
+}
